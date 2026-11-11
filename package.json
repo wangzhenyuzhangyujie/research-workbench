@@ -1,0 +1,7 @@
+{
+  "name": "research-workbench-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {"test:browser": "node tests/browser.mjs"},
+  "devDependencies": {"playwright": "1.65.0"}
+}

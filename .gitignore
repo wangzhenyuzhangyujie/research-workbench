@@ -1,0 +1,19 @@
+# Local documents, comments, credentials, and generated artifacts
+**/node_modules/
+**/.next/
+**/*.tsbuildinfo
+**/next-env.d.ts
+**/data/
+**/workspace/
+**/.venv/
+**/__pycache__/
+**/.env
+**/.env.*
+**/.dev.vars*
+**/.wrangler/
+**/*.sqlite*
+**/*.db
+**/*.log
+.DS_Store
+test-results/
+playwright-report/

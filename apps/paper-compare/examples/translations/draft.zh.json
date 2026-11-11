@@ -1,0 +1,62 @@
+{
+  "title": {
+    "sha256": "1786e8f9133d8e21d8fdbfb511d85171c47043ec2ee45ad31ba6ffc50dfe0c9f",
+    "zh_html": "<h1>文档排序研究示例</h1>",
+    "status": "reviewed",
+    "source": "Original demonstration translation"
+  },
+  "abstract": {
+    "sha256": "2ede672c7aad28ab570ca39e46c39c34b145cfe2353d04ac27f57df40fdfb2e0",
+    "zh_html": "<h2>摘要</h2><p>本原创示例用于演示论文对照工作台，不包含真实研究结果。</p>",
+    "status": "reviewed",
+    "source": "Original demonstration translation"
+  },
+  "intro": {
+    "sha256": "479ce8267a8dc66449e53b838492edeab11f9f116eed87da087547c1cd388ae6",
+    "zh_html": "<h2>引言</h2>",
+    "status": "reviewed",
+    "source": "Original demonstration translation"
+  },
+  "motivation": {
+    "sha256": "fdf814ed5aa394cd1eababa0e78f6b1f3b547bf89c4c3c9a689fac6749040e16",
+    "zh_html": "<p>读者需要先理解问题，才能评价方法。这一段用简单的语言说明问题。</p>",
+    "status": "reviewed",
+    "source": "Original demonstration translation"
+  },
+  "method": {
+    "sha256": "e525bdc3858efbf63a5635f00b9187ea46a9430a4bed5e1c8ee5fca2a3dc0d65",
+    "zh_html": "<h2>方法</h2>",
+    "status": "reviewed",
+    "source": "Original demonstration translation"
+  },
+  "approach": {
+    "sha256": "1e20cff5006acc097d35efe6f0b53007047109406db32eca0fb5850ad498d407",
+    "zh_html": "<p>我们为每篇文档定义分数 \\(s(d)\\)，并返回得分最高的项目。这些文字仅用于演示修改和批注。</p>",
+    "status": "reviewed",
+    "source": "Original demonstration translation"
+  },
+  "experiments": {
+    "sha256": "196f30403a1dc8e3e2ec38176e7cbbf240a5402b9a7285100dab6a1b27dbaf1c",
+    "zh_html": "<h2>实验</h2>",
+    "status": "reviewed",
+    "source": "Original demonstration translation"
+  },
+  "protocol": {
+    "sha256": "6d4104fd79620e532496e6c061d6bac1239b3b4b0bbf2cfefbac3c60187e151d",
+    "zh_html": "<p>完整报告应说明输入、对比方法、评价指标和不确定性。请将此处替换为自己的实验设计。</p>",
+    "status": "reviewed",
+    "source": "Original demonstration translation"
+  },
+  "conclusion": {
+    "sha256": "7c6ffa22d25048eb3151789183257f6e7e30da0e839bc9442905cd1eab2d7122",
+    "zh_html": "<h2>结论</h2>",
+    "status": "reviewed",
+    "source": "Original demonstration translation"
+  },
+  "closing": {
+    "sha256": "58b080c2bf275ee14452bac5ea0c2671e3ba1ab7b7d0bc4717986d3c466029a0",
+    "zh_html": "<p>本示例展示了如何通过稳定段落编号实现双语审阅和持久批注。</p>",
+    "status": "reviewed",
+    "source": "Original demonstration translation"
+  }
+}

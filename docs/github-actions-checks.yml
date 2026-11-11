@@ -1,0 +1,30 @@
+name: Checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: apps/rebuttal/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y pandoc latexmk texlive-latex-recommended texlive-fonts-recommended
+      - run: npm ci && npm run typecheck && npm run build
+        working-directory: apps/rebuttal
+        env:
+          NEXT_TELEMETRY_DISABLED: '1'
+      - run: |
+          python -m venv .venv
+          .venv/bin/pip install -r requirements.txt
+          .venv/bin/python -m unittest discover -s scripts -p 'test_*.py'
+          .venv/bin/python scripts/init_demo.py
+          .venv/bin/python scripts/build.py --pdf
+        working-directory: apps/paper-compare
+      - run: apps/paper-compare/.venv/bin/python tests/api_smoke.py

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "R1",
+    "zh": "感谢您的认真审阅。\n\n**1. 比较条件**\n\n这是演示回复。请把这一段替换为对该问题的直接回答，并补充对应证据。",
+    "en": "Thank you for the careful review.\n\n**1. Comparison protocol**\n\nThis is a demonstration response. Replace this paragraph with a direct answer and the evidence supporting it.",
+    "note": "",
+    "titleZh": "比较条件的补充说明",
+    "titleEn": "Clarifying comparison protocol",
+    "stage": "draft",
+    "aligned": false,
+    "revision": 0,
+    "updatedAt": "2026-01-01T00:00:00.000Z",
+    "versionLabel": "演示初稿"
+  },
+  {
+    "id": "R2",
+    "zh": "感谢您的认真审阅。\n\n**1. 方法贡献**\n\n这是演示回复。请把这一段替换为对该问题的直接回答，并补充对应证据。",
+    "en": "Thank you for the careful review.\n\n**1. Method contribution**\n\nThis is a demonstration response. Replace this paragraph with a direct answer and the evidence supporting it.",
+    "note": "",
+    "titleZh": "方法贡献的补充说明",
+    "titleEn": "Clarifying method contribution",
+    "stage": "draft",
+    "aligned": false,
+    "revision": 0,
+    "updatedAt": "2026-01-01T00:00:00.000Z",
+    "versionLabel": "演示初稿"
+  },
+  {
+    "id": "R3",
+    "zh": "感谢您的认真审阅。\n\n**1. 运行成本**\n\n这是演示回复。请把这一段替换为对该问题的直接回答，并补充对应证据。",
+    "en": "Thank you for the careful review.\n\n**1. Runtime cost**\n\nThis is a demonstration response. Replace this paragraph with a direct answer and the evidence supporting it.",
+    "note": "",
+    "titleZh": "运行成本的补充说明",
+    "titleEn": "Clarifying runtime cost",
+    "stage": "draft",
+    "aligned": false,
+    "revision": 0,
+    "updatedAt": "2026-01-01T00:00:00.000Z",
+    "versionLabel": "演示初稿"
+  },
+  {
+    "id": "General",
+    "zh": "",
+    "en": "",
+    "note": "",
+    "titleZh": "",
+    "titleEn": "",
+    "stage": "empty",
+    "aligned": false,
+    "revision": 0,
+    "updatedAt": "2026-01-01T00:00:00.000Z",
+    "versionLabel": "空白公共回复"
+  }
+]
